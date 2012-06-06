@@ -1,4 +1,8 @@
-Version 0.10.9
+Version 0.11.1
+
+	* Fix incase there is no macruby
+
+Version 0.11.0
 
 	* Fix errors due to lib/jiraSOAP/version.rb, moved it to VERSION.
 
