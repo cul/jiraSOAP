@@ -1,4 +1,4 @@
-require './lib/jiraSOAP/version'
+
 
 Gem::Specification.new do |s|
   s.name    = 'jiraSOAP'
