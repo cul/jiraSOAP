@@ -2,7 +2,7 @@ require './lib/jiraSOAP/version'
 
 Gem::Specification.new do |s|
   s.name    = 'jiraSOAP'
-  s.version = JIRA::VERSION
+  s.version = IO.read("VERSION").strip
 
   s.summary     = 'A Ruby client for the JIRA SOAP API'
   s.description = 'Written to run fast and work on Ruby 1.9 as well as MacRuby'

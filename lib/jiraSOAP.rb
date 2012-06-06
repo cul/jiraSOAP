@@ -15,7 +15,6 @@ require 'jiraSOAP/url'
 # All the remote entities as well as the SOAP service client.
 module JIRA; end
 
-require 'jiraSOAP/version'
 require 'jiraSOAP/core_extensions'
 require 'jiraSOAP/entities'
 require 'jiraSOAP/api'
