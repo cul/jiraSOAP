@@ -2,8 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name    = 'jiraSOAP'
-  s.version = IO.read(File.join(File.dirname(__FILE__), "VERSION").strip
-
+  s.version = IO.read(File.join(File.dirname(__FILE__), "VERSION")).strip
   s.summary     = 'A Ruby client for the JIRA SOAP API'
   s.description = 'Written to run fast and work on Ruby 1.9 as well as MacRuby'
   s.authors     = ['Mark Rada']
